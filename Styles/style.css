@@ -202,6 +202,102 @@ main{
 
 
 
+.cmng-soon-section{
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom:200px;
+
+}
+
+.cmng-soon-section span{
+    color: red;
+}
+
+
+
+
+.right-side-des{
+
+    width: 350px;
+
+
+}
+
+.right-side-des h4{
+  margin-bottom: 16px; 
+  font-size: 24px;
+}
+
+.right-side-des h3{
+  margin-bottom: 16px;
+  font-size: 48px; 
+}
+
+.right-side-des p{
+  text-align: justify;
+  font-size: 20px;
+}
+
+
+.img-side img{
+
+    height:350px;
+    width: 350px;
+    border: 10px solid red;
+    border-radius: 50%;
+    padding: 30px;
+    
+}
+
+
+.left-side-des{
+
+    width: 350px;
+   
+}
+
+.left-side-des h3{
+
+    margin-bottom: 16px;
+  font-size: 48px; 
+   
+}
+
+.left-side-des p{
+
+    margin-bottom: 16px;
+  font-size: 20px; 
+   
+}
+
+.left-side-des img{
+
+    height: 100px;
+    width: 100px;
+   
+}
+
+
+
+
+.holi-sale-des{
+    text-align: center;
+}
+
+
+.holi-sale-des h4{}
+    
+.holi-sale-des{}
+
+.holi-sale-des{}
+
+
+
+
+
+
 
 
 
