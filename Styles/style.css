@@ -31,13 +31,7 @@ main{
 
 
 
-
-
-
-
-
-
-
+/* HERO SECTION */
 
 
 
@@ -46,28 +40,21 @@ main{
 }
 
 .hero-section-img{
- 
     height: 700px;
     background-image: url(../images/Banner\ Image.png);
     background-size: 100%;
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
-
-   
     display: flex;
-  justify-content: center;
-  align-items: center;
-
-   
+    justify-content: center;
+    align-items: center;
 }
 
 .hero-content{
-    
     text-align: center;
     position: absolute;
     color: white;
-    
 }
 
 .hero-content h4{
@@ -75,19 +62,13 @@ main{
     font-weight: 00;
 }
 
-
-
 .hero-content h1{
-    
     font-size: 70px;
     font-weight: bolder;
-  
 }
 
 
-
-
-
+/* DISCOUNT SECTION */
 
 
 .discount-section{
@@ -96,64 +77,52 @@ main{
 }
 
 .discount-section-content h2{
-
     color: red;
     font-size: 88px;
     font-weight: bold;
     margin-bottom: 20px;
-
 }
 
 .discount-section-content p{
-
     font-size: 24px;
     margin-bottom: 10px;
-
 }
 
 .discount-section-content h3{
-
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 20px;
-
 }
 
+
+/* PARTY SECTION  */
 
 .party-section{
     position: relative;
     margin-bottom:200px;
     display: flex;
-   justify-content: center;
+    justify-content: center;
     align-items: center;
-    
-
 }
 
 
 .party-section-content{
     text-align: left;
     position: absolute;
-   
     height: 400PX;
     width: 800PX; 
-    
 }
 
 .party-section-content h3{
-
     font-size: 60px;
     color: white;
     padding-bottom: 30px;
-   
 }
 
 .party-section-content p{
-
     font-size: 18px;
     color: white;
     padding-bottom: 30px;
-   
 }
 
 .party-section-content button{
@@ -164,17 +133,15 @@ main{
 }
 
 
+/* VENUE SECTION */
 
 
 .venue-section{
-  
     margin-bottom:200px;
     background-image:linear-gradient(to top, white,rgb(255, 221, 221));
     padding: 50px;
     text-align: center;
     border-radius: 10px;
-
-  
 }
 
 
@@ -199,30 +166,22 @@ main{
 }
 
 
-
+/* coming soon section  */
 
 
 .cmng-soon-section{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin-bottom:200px;
-
 }
 
 .cmng-soon-section span{
     color: red;
 }
 
-
-
-
 .right-side-des{
-
     width: 350px;
-
-
 }
 
 .right-side-des h4{
@@ -242,49 +201,43 @@ main{
 
 
 .img-side img{
-
     height:350px;
     width: 350px;
     border: 10px solid red;
     border-radius: 50%;
     padding: 30px;
-    
 }
 
 
 .left-side-des{
-
     width: 350px;
-   
 }
 
 .left-side-des h3{
-
     margin-bottom: 16px;
-  font-size: 48px; 
-   
+    font-size: 48px; 
 }
 
 .left-side-des p{
-
     margin-bottom: 16px;
-  font-size: 20px; 
+    font-size: 20px; 
    
 }
 
 .left-side-des img{
-
     height: 100px;
     width: 100px;
-   
 }
 
+
+/* HOLIDAY SALE SECTION  */
 
 
 .holiday-sale-section{
    margin-bottom:200px;
    position: relative;
 }
+
 .bottom {
     margin-top: 400px;
 }
@@ -327,16 +280,13 @@ main{
 }
 
 
+/* PRODUCTS SECTION  */
+
 
 .products-section{
     margin-bottom:200px;
-
 }
 
-
-.products-section-des{
-
-}
 
 .products-section-des h4{
     color: red;
@@ -355,7 +305,6 @@ main{
 }
 
 
-
 .products-images{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -363,24 +312,18 @@ main{
 }
 
 
+/* NEWSLETTER SECTION  */
 
 
 .newsletter-section{
     background-color: rgb(255, 221, 221);
     border-radius: 10px;
-height: 600px;
-text-align: center;
-
-padding: 80px;
-margin-bottom: 200px;
-    
+    height: 600px;
+    text-align: center;
+    padding: 80px;
+    margin-bottom: 200px;
 }
 
-.newsletter-des{
-   
-    
-    
-}
 
 
 .newsletter-des h3{
@@ -397,14 +340,12 @@ margin-bottom: 200px;
 
 .subscribe-box {
   width: 500px;
-  
   background: white;
   border-radius: 50px;
   padding: 5px;
   display: flex;
   justify-content:center;
- margin: 0 auto
-  
+    margin: 0 auto
 }
 
 
@@ -430,20 +371,18 @@ margin-bottom: 200px;
 }
 
 
+/* FOOTER  */
+
 
 .footer{
     background-color: black;
-  
-    
     padding: 80px;
-    
 }
 
 
 .footer-all{
     width: 1300px;
     margin: 0 auto;
-
 }
 
 .footer-head{
@@ -463,8 +402,8 @@ margin-bottom: 200px;
 .footer-down{
     color: white;
     display: flex;
-    
     justify-content: space-around;
     border-bottom: 1px solid white;
     padding: 30px;
 }
+
